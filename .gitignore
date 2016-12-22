@@ -1,3 +1,6 @@
+# Mapbox Test Data
+Mapbox/data/*.mbtiles
+
 # Logs
 logs
 *.log
@@ -27,7 +30,7 @@ coverage
 build/Release
 
 # Dependency directories
-node_modules
+node_modulesgit
 jspm_packages
 
 # Optional npm cache directory
