@@ -19,12 +19,12 @@ Latest Nodejs version
 
 ## Setup
 - Clone this repository
-  ```
-  git clone https://github.com/UrbanEcologyLab/Data-Pipeline.git
-  cd Data-Pipeline/Mapbox
-  npm install
-  node app.js
-  ```
+```
+git clone https://github.com/UrbanEcologyLab/Data-Pipeline.git
+cd Data-Pipeline/Mapbox
+npm install
+node app.js
+```
 - [Download sample data](https://osm2vectortiles-downloads.os.zhdk.cloud.switch.ch/v2.0/extracts/new-york_new-york.mbtiles) and save it as `osm-nyc.mbtiles` in `Mapbox/data`
 
 *Note: Any .mbtiles data must be vector tiles format; NOT raster*
