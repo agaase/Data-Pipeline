@@ -1,0 +1,3 @@
+[submodule "Cesium/3dcitydb-web-map"]
+	path = Cesium/3dcitydb-web-map
+	url = https://github.com/UrbanEcologyLab/3dcitydb-web-map
