@@ -60,3 +60,12 @@ The current sample data (.mbtiles) does not have building heights attribute.
 
 ### 12/30/2016 - Rendering 3d data set by adding layer to extrude building footprint
 The data set at [NYC open data](https://data.cityofnewyork.us/Housing-Development/Building-Footprints/nqwf-w8eh/data) gives building footprint along with height attribute. 
+
+To use this new data set, custom style has to be passed to the map. The building-footprint.json defines the basic configuration of the data set being used here. That is passed to the script (script3d.js) which defines two layers; one for the basic 2d footprint of the building and the other for the height extrusion.
+
+To run this example 
+- Download the geoJSON building footprint data from [NYC open data](https://data.cityofnewyork.us/Housing-Development/Building-Footprints/nqwf-w8eh/data).
+- Using tippecanoe, convert this geoJSON data to mbtiles by using the command `tippecanoe -z 14 -Z 7 -o building_footprint.mbtiles Building\ Footprints.geojson`
+- Put the data file under data folder 
+- Change index.pug to use script3d.js instead of script.js
+
