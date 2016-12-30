@@ -1,0 +1,52 @@
+{
+  "tiles": [
+    "http://localhost:3000/building_footprint/{z}/{x}/{y}.pbf"
+  ],
+  "name": "test2.mbtiles",
+  "format": "pbf",
+  "basename": "test2",
+  "id": "test",
+  "filesize": 95313920,
+  "description": "test2.mbtiles",
+  "version": "2",
+  "minzoom": 12,
+  "maxzoom": 14,
+  "center": [
+    -73.948975,
+    40.672305,
+    14
+  ],
+  "bounds": [
+    -74.255495,
+    40.498429,
+    -73.700063,
+    40.91505
+  ],
+  "type": "overlay",
+  "vector_layers": [
+    {
+      "id": "BuildingFootprintsgeojson",
+      "description": "",
+      "minzoom": 12,
+      "maxzoom": 14,
+      "fields": {
+        "bbl": "String",
+        "bin": "String",
+        "built_code": "String",
+        "cnstrct_yr": "String",
+        "doitt_id": "String",
+        "feat_code": "String",
+        "groundelev": "String",
+        "heightroof": "String",
+        "lstmoddate": "String",
+        "lststatype": "String",
+        "name": "String",
+        "num_floors": "String",
+        "shape_area": "String",
+        "shape_len": "String",
+        "sub_code": "String"
+      }
+    }
+  ],
+  "tilejson": "2.0.0"
+}
