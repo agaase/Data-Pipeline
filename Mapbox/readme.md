@@ -54,3 +54,9 @@ The current sample data (.mbtiles) does not have building heights attribute.
   - [mapbox-tile-copy](https://github.com/mapbox/mapbox-tile-copy) : Create tiles from .mbtiles directly on s3 bucket
   - [tippecanoe](https://github.com/mapbox/tippecanoe)
 - More resources here: [Awesome Vector Tiles](https://github.com/mapbox/awesome-vector-tiles)
+
+
+## Updates 
+
+### 12/30/2016 - Rendering 3d data set by adding layer to extrude building footprint
+The data set at [NYC open data](https://data.cityofnewyork.us/Housing-Development/Building-Footprints/nqwf-w8eh/data) gives building footprint along with height attribute. 
